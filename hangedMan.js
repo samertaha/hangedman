@@ -37,7 +37,7 @@ var recursiveAsyncReadLine = function (randomWord, guesses, guessed) {
   };
   console.log(`You have ${guesses} guesses`);
   console.log('The word is:');
-  console.log(guessed);
+  console.log('\x1b[32m%s\x1b[0m', guessed);
 
   rl.question('What is your guess:', function (answer) {
     answer = answer.toLowerCase();
