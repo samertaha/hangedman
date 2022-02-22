@@ -1,3 +1,7 @@
+// https://github.com/zoro12/hangedman
+// please clone and install locally in vscode and run.
+// Note this game/app was designed to run on node.js console
+
 var figlet = require('figlet');
 const { resourceLimits } = require('worker_threads');
 
