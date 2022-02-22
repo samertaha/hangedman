@@ -52,7 +52,7 @@ var recursiveAsyncReadLine = function (randomWord, guesses, guessed) {
     else guesses--;
 
     if (guessed == randomWord) {
-      console.log('\x1b[32m%s\x1b[0m', randomWord);
+      // console.log('\x1b[32m%s\x1b[0m', randomWord);
       console.log('\x1b[32m%s\x1b[0m', 'Wow You are good!!!');
       return rl.close();
     } else if (guesses == 0) {
