@@ -24,3 +24,5 @@ also on line 25 i added a method to the String object prototype called it
 replaceAt, this function can replace only one specified character giving its index
 in the string and it was used on the infect function wich use it to replaced all the
 occurrences of the guessed character found in the word.
+
+THANKS.
